@@ -13,3 +13,9 @@ def contato():
 @app.route('/sobre')
 def sobre():
     return 'Meu nome é Maria Eduarda, aluna do Senac'
+
+# rota para projetos
+
+@app.route('/Projetos')
+def Projeto():
+    return 'Projetos'
